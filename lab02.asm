@@ -48,7 +48,7 @@ swapArray:
 		sw $t8 , 0($t1)			#
 		
 		
-		addi $t0, $t0, 4		# $t0 now points to the next word than before and in line 43 so wiil $t1.
+		addi $t0, $t0, 4		# $t0 now points to the next word than before and in line 43 so wiil $t1
 		addi $t5, $t5, 1		# t5 = t5 + 1 or i++
 				
 		j loop
