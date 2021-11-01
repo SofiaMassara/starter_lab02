@@ -43,7 +43,7 @@ swapArray:
 		add $t1, $t0, $t7		# $ti is the element to swap with $t0
 		
 		lw $t8 , 0($t0)			# swap proccess
-		lw $t9 , 0($t1)			# I used $t9 , $t8 to store temporary values
+		lw $t9 , 0($t1)			# I used $t9 , $t8 to store temporary values.
 		sw $t9 , 0($t0)			#
 		sw $t8 , 0($t1)			#
 		
